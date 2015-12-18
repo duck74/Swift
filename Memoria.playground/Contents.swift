@@ -1,4 +1,4 @@
-//: Juego de Memoria  
+//: Juego de Memoria
 
 for i in 0...100 {
     //print(i)
@@ -15,3 +15,28 @@ for i in 0...100 {
         break
     }
 }
+
+for i in 0...100 {
+    
+    if i % 5 == 0{
+        print("#\(i)\tBingo!!!")
+        
+    }
+    if i % 2 == 0{
+        print("#\(i)\tPar!!!")
+        
+    }else{
+        print("#\(i)\timpar!!!")
+        
+        
+        
+    }
+    
+    if i >= 30 && i <= 40{
+        print("#\(i)\tVivaSwift!!!")
+        
+        
+    }
+    
+}
+
