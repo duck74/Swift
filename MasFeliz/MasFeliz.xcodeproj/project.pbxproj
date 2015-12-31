@@ -12,6 +12,7 @@
 		8A8AC5D41C31BFD600F7209B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A8AC5D21C31BFD600F7209B /* Main.storyboard */; };
 		8A8AC5D61C31BFD600F7209B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A8AC5D51C31BFD600F7209B /* Assets.xcassets */; };
 		8A8AC5D91C31BFD600F7209B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A8AC5D71C31BFD600F7209B /* LaunchScreen.storyboard */; };
+		8A8AC5E51C32A3A700F7209B /* coloresStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8AC5E41C32A3A700F7209B /* coloresStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		8A8AC5D51C31BFD600F7209B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A8AC5D81C31BFD600F7209B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A8AC5DA1C31BFD600F7209B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A8AC5E01C31C10D00F7209B /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		8A8AC5E41C32A3A700F7209B /* coloresStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = coloresStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +57,24 @@
 		8A8AC5CD1C31BFD600F7209B /* MasFeliz */ = {
 			isa = PBXGroup;
 			children = (
+				8A8AC5E11C31C12000F7209B /* playgrounds */,
 				8A8AC5CE1C31BFD600F7209B /* AppDelegate.swift */,
 				8A8AC5D01C31BFD600F7209B /* ViewController.swift */,
 				8A8AC5D21C31BFD600F7209B /* Main.storyboard */,
 				8A8AC5D51C31BFD600F7209B /* Assets.xcassets */,
 				8A8AC5D71C31BFD600F7209B /* LaunchScreen.storyboard */,
 				8A8AC5DA1C31BFD600F7209B /* Info.plist */,
+				8A8AC5E41C32A3A700F7209B /* coloresStruct.swift */,
 			);
 			path = MasFeliz;
+			sourceTree = "<group>";
+		};
+		8A8AC5E11C31C12000F7209B /* playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				8A8AC5E01C31C10D00F7209B /* MyPlayground.playground */,
+			);
+			name = playgrounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A8AC5E51C32A3A700F7209B /* coloresStruct.swift in Sources */,
 				8A8AC5D11C31BFD600F7209B /* ViewController.swift in Sources */,
 				8A8AC5CF1C31BFD600F7209B /* AppDelegate.swift in Sources */,
 			);
