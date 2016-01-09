@@ -17,10 +17,24 @@ class VistaPedido: UIViewController {
     
     @IBAction func enviarPedido(sender: AnyObject) {
         
-        let alert = UIAlertController(title: "Gracias!", message: "Tu pedido ha enviado a la cocina. Muchas gracias por tu pedido y que aproveche!", preferredStyle: UIAlertControllerStyle.Alert)
-        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
-        self.presentViewController(alert, animated: true, completion: nil)
-        verPedido.text = ""
+        let refreshAlert = UIAlertController(title: "Enviar Pedido", message: "Estast seguro?", preferredStyle: UIAlertControllerStyle.Alert)
+        
+        refreshAlert.addAction(UIAlertAction(title: "Ok", style: .Default, handler: { (action: UIAlertAction!) in
+            let alert = UIAlertController(title: "Gracias!", message: "Tu pedido ha enviado a la cocina. Muchas gracias por tu pedido y que aproveche!", preferredStyle: UIAlertControllerStyle.Alert)
+            alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
+            self.presentViewController(alert, animated: true, completion: nil)
+            self.verPedido.text = ""
+        }))
+        
+        refreshAlert.addAction(UIAlertAction(title: "Cancel", style: .Default, handler: { (action: UIAlertAction!) in
+            print("Handle Cancel Logic here")
+        }))
+        
+        presentViewController(refreshAlert, animated: true, completion: nil)
+        
+        
+        
+        
     }
     
         override func viewWillAppear(animated: Bool) {
