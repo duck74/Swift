@@ -263,6 +263,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="envPed" destination="g5d-qb-DJT" id="L9s-26-Two"/>
                         <outlet property="verPedido" destination="QMt-Im-6rF" id="bih-n9-v8f"/>
                     </connections>
                 </viewController>

@@ -13,6 +13,7 @@ class VistaPedido: UIViewController {
     var resultado = [String]()
     
 
+    @IBOutlet weak var envPed: UIButton!
     @IBOutlet weak var verPedido: UILabel!
     
     @IBAction func enviarPedido(sender: AnyObject) {
@@ -24,6 +25,8 @@ class VistaPedido: UIViewController {
             alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
             self.presentViewController(alert, animated: true, completion: nil)
             self.verPedido.text = ""
+            self.envPed.enabled = false
+            
         }))
         
         refreshAlert.addAction(UIAlertAction(title: "Cancel", style: .Default, handler: { (action: UIAlertAction!) in
@@ -31,7 +34,7 @@ class VistaPedido: UIViewController {
         }))
         
         presentViewController(refreshAlert, animated: true, completion: nil)
-        
+        self.navigationController?.popToRootViewControllerAnimated(true)
         
         
         
