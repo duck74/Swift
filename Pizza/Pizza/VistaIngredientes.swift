@@ -56,7 +56,7 @@ class VistaIngredientes: UIViewController , UITableViewDelegate, UITableViewData
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         var listcount = 0
         //print("You selected cell #\(indexPath.row)!")
-        //selectedIndexPaths.append(indexPath)
+        selectedIndexPaths.append(indexPath)
         //listcount = Int(selectedIndexPaths.count)
         //print(selectedIndexPaths)
         //print(listcount)
@@ -64,14 +64,14 @@ class VistaIngredientes: UIViewController , UITableViewDelegate, UITableViewData
         //rowIndex = selectedIndexPaths.map{$0.row}
         //print (ingredientesPickerDataSource[indexPath.row])
         if let list = tableView.indexPathsForSelectedRows {
-            //print(list)
+            print("print actual list: \(list)")
             listcount = Int(list.count)
             print(list.count)
-            rowIndex = list.map{$0.row}
-            print(rowIndex)
+            rowIndex = selectedIndexPaths.map{$0.row}
+            print("Row index \(rowIndex)")
         }
         //let selectedRows = tableView.indexPathForSelectedRows as? [NSIndexPath]
-            
+        
         
         //print(selectedRows)
         if listcount < 5 {
@@ -91,6 +91,8 @@ class VistaIngredientes: UIViewController , UITableViewDelegate, UITableViewData
         
         if let index = selectedIndexPaths.indexOf(indexPath) {
             selectedIndexPaths.removeAtIndex(index)
+            print(selectedIndexPaths)
+            rowIndex = selectedIndexPaths.map{$0.row}
         }
         
     }
