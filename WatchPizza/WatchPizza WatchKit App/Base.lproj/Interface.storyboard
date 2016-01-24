@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9515"/>
+    </dependencies>
+    <scenes>
+        <!--controllerInicial-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller identifier="controllerInicial" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchPizza_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label alignment="left" text="Bienvenido para pedir un Pizza con Apple Watch " textAlignment="center" numberOfLines="3" id="LVF-Wc-kD4"/>
+                        <button width="1" alignment="left" title="Crear tu pizza" id="oIL-6O-A3y">
+                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="empezarPedido" destination="AgC-eL-Hgc" id="Kfn-Uh-xoc"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="crearPizza" destination="oIL-6O-A3y" id="M3d-I1-Cyf"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="211" y="341"/>
+        </scene>
+        <!--tamano-->
+        <scene sceneID="jG7-gc-Lmn">
+            <objects>
+                <controller identifier="tamano" id="ZEg-mC-4Ri" customClass="VistaTamano" customModule="WatchPizza_WatchKit_Extension">
+                    <items>
+                        <label height="44.5" alignment="left" text="Seleccion de Tamaño" minimumScaleFactor="0.69999999999999996" id="MGR-f3-fOK"/>
+                        <group width="1" alignment="center" id="fz4-mR-XWi">
+                            <items>
+                                <label width="136" alignment="left" text="Tamaño" textAlignment="center" id="exq-6D-w6A"/>
+                            </items>
+                            <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                        </group>
+                        <slider width="1" alignment="left" maximum="3" steps="3" id="WLp-eb-1Om">
+                            <connections>
+                                <action selector="tamanoAccion:" destination="ZEg-mC-4Ri" id="LAg-ba-GJe"/>
+                            </connections>
+                        </slider>
+                        <button width="1" alignment="left" title="Seleccion de masa" id="g3t-Td-8CD">
+                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="tamanoAccion" destination="ZEg-mC-4Ri" id="1aK-FQ-pdj"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="selTamano" destination="exq-6D-w6A" id="fYJ-6d-VkF"/>
+                        <outlet property="tamanoButton" destination="g3t-Td-8CD" id="CC1-dI-Sn5"/>
+                        <outlet property="tamanoSlider" destination="WLp-eb-1Om" id="Z7C-vU-4eS"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="370" y="166.25"/>
+        </scene>
+        <!--ingredientes-->
+        <scene sceneID="qhR-bd-BoE">
+            <objects>
+                <controller identifier="ingredientes" id="JWz-kC-UST" customClass="VistaIngredientes" customModule="WatchPizza_WatchKit_Extension">
+                    <items>
+                        <label alignment="center" text="Seleccion de los ingredientes (max.5)" textAlignment="center" numberOfLines="3" id="NSQ-tB-0XI">
+                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                        </label>
+                        <switch width="1" alignment="left" title="aceituna" id="y3K-J7-01I">
+                            <color key="titleColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="aceitunaAccion:" destination="JWz-kC-UST" id="8G3-cF-Jpr"/>
+                            </connections>
+                        </switch>
+                        <switch width="1" alignment="left" title="anchoa" id="IU1-XZ-lit">
+                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="anchoaAccion:" destination="JWz-kC-UST" id="81q-zc-0l0"/>
+                            </connections>
+                        </switch>
+                        <switch width="1" alignment="left" title="cebolla" id="LqQ-nA-26o">
+                            <color key="titleColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="cebollaAccion:" destination="JWz-kC-UST" id="9Bk-Wz-Ec8"/>
+                            </connections>
+                        </switch>
+                        <switch width="1" alignment="left" title="jamón" id="Hny-F7-Ln1">
+                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="jamonAccion:" destination="JWz-kC-UST" id="Bhf-cp-Azu"/>
+                            </connections>
+                        </switch>
+                        <switch width="1" alignment="left" title="pavo" id="0oz-de-zUo">
+                            <color key="titleColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="pavoAccion:" destination="JWz-kC-UST" id="bdS-LE-XWn"/>
+                            </connections>
+                        </switch>
+                        <switch width="1" alignment="left" title="pepperoni" id="VJa-uN-GY8">
+                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="pepperoniAccion:" destination="JWz-kC-UST" id="okm-rX-8kz"/>
+                            </connections>
+                        </switch>
+                        <switch width="1" alignment="left" title="pimiento" id="0wC-ae-q5r">
+                            <color key="titleColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="pimpientoAccion:" destination="JWz-kC-UST" id="4bG-Fp-1A0"/>
+                            </connections>
+                        </switch>
+                        <switch width="1" alignment="left" title="piña" id="rDc-M0-sBF">
+                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="pinaAccion:" destination="JWz-kC-UST" id="zXL-SR-E8i"/>
+                            </connections>
+                        </switch>
+                        <switch width="1" alignment="left" title="salchicha" id="gJ1-p9-NIm">
+                            <color key="titleColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="salchichaAccion:" destination="JWz-kC-UST" id="R3D-80-SP3"/>
+                            </connections>
+                        </switch>
+                        <button width="1" alignment="left" title="Ver pedido" id="RSf-a0-uMI">
+                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="pedidoButton" destination="JWz-kC-UST" id="Y5O-YO-wMQ"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="aceitunas" destination="y3K-J7-01I" id="GJf-Ci-StC"/>
+                        <outlet property="anchoas" destination="IU1-XZ-lit" id="HTi-Bx-tj9"/>
+                        <outlet property="cebollas" destination="LqQ-nA-26o" id="Ine-p1-aLX"/>
+                        <outlet property="jamones" destination="Hny-F7-Ln1" id="rwb-lG-JLJ"/>
+                        <outlet property="pavos" destination="0oz-de-zUo" id="c3g-cN-wyj"/>
+                        <outlet property="pepperonis" destination="VJa-uN-GY8" id="ulR-AF-0K6"/>
+                        <outlet property="pimientos" destination="0wC-ae-q5r" id="pnD-u0-UIv"/>
+                        <outlet property="pinas" destination="rDc-M0-sBF" id="jBN-3M-dvv"/>
+                        <outlet property="salchichas" destination="gJ1-p9-NIm" id="Bg4-xv-GR9"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="574" y="160"/>
+        </scene>
+        <!--masa-->
+        <scene sceneID="tu0-Fo-Nud">
+            <objects>
+                <controller identifier="masa" id="eJH-oW-bvw" customClass="VistaMasa" customModule="WatchPizza_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="Seleccion de Masa" minimumScaleFactor="0.69999999999999996" id="DqT-9U-B0G"/>
+                        <switch width="1" alignment="left" title="delgada" id="YoA-gK-LWC">
+                            <color key="titleColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="delgadaSwitch:" destination="eJH-oW-bvw" id="q8y-Wz-heD"/>
+                            </connections>
+                        </switch>
+                        <switch width="1" alignment="left" title="crujiente" id="Xcq-vZ-5Ok">
+                            <connections>
+                                <action selector="crujienteSwitch:" destination="eJH-oW-bvw" id="Rch-iE-5Pf"/>
+                            </connections>
+                        </switch>
+                        <switch width="1" alignment="left" title="gruesa" id="mmM-re-UnQ">
+                            <color key="titleColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="gruesaSwitch:" destination="eJH-oW-bvw" id="zSA-Mb-qDz"/>
+                            </connections>
+                        </switch>
+                        <button width="1" alignment="left" title="Seleccion de queso" id="N6R-FU-ea8">
+                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="masaButton" destination="eJH-oW-bvw" id="4FQ-qC-7wH"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="crujiente" destination="Xcq-vZ-5Ok" id="Q4r-zp-Z0U"/>
+                        <outlet property="delgada" destination="YoA-gK-LWC" id="79i-dp-bUX"/>
+                        <outlet property="gruesa" destination="mmM-re-UnQ" id="A4S-LI-BSx"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="370" y="503"/>
+        </scene>
+        <!--queso-->
+        <scene sceneID="JAN-9m-Gnd">
+            <objects>
+                <controller identifier="queso" id="Sac-63-FSi" customClass="VistaQueso" customModule="WatchPizza_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="Seleccion de queso" minimumScaleFactor="0.80000000000000004" id="Itl-0h-0i0"/>
+                        <picker height="100" alignment="left" id="1z9-W5-Orm">
+                            <connections>
+                                <action selector="quesoPickerAccion:" destination="Sac-63-FSi" id="Saj-X3-pVa"/>
+                            </connections>
+                        </picker>
+                        <button width="1" alignment="left" title="Seleccion de los ingredientes" id="hhR-rL-Gbk">
+                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="quesoButton" destination="Sac-63-FSi" id="stc-04-Krg"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="quesoPicker" destination="1z9-W5-Orm" id="7Vd-4S-Pes"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="630" y="531"/>
+        </scene>
+        <!--pedidoFinal-->
+        <scene sceneID="O6Q-Ad-KKs">
+            <objects>
+                <controller identifier="pedidoFinal" id="PEX-gW-G1H" customClass="VistaPedidoFinal" customModule="WatchPizza_WatchKit_Extension">
+                    <items>
+                        <label alignment="center" text="Tu pedido" id="4SC-y2-3fM"/>
+                        <group width="1" alignment="left" id="Cpq-dB-pX6">
+                            <items>
+                                <label alignment="center" text="Label" numberOfLines="5" id="UBP-n1-wHa">
+                                    <color key="textColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </label>
+                                <label alignment="left" text="Tamaño:" id="GDv-C9-JGe"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="UAD-AI-7yQ">
+                            <items>
+                                <label alignment="center" text="Label" numberOfLines="5" id="b6S-pO-h3h">
+                                    <color key="textColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </label>
+                                <label alignment="left" text="Masa" id="bRT-Qs-CWy"/>
+                            </items>
+                            <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                        </group>
+                        <group width="1" alignment="left" id="bnM-U8-OPA">
+                            <items>
+                                <label alignment="center" text="Label" numberOfLines="5" id="CXj-2T-Siy">
+                                    <color key="textColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </label>
+                                <label alignment="left" text="Queso" id="GdX-aK-6dS"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="In9-Vx-Wjx">
+                            <items>
+                                <label alignment="center" text="Label" numberOfLines="5" id="mvm-AG-b0E">
+                                    <color key="textColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </label>
+                                <label alignment="left" text="Ingr:" id="ufD-qI-SXb"/>
+                            </items>
+                            <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                        </group>
+                        <button width="1" alignment="left" title="Pedir!" id="cfn-i4-nNF">
+                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="pedirFinalAccion" destination="PEX-gW-G1H" id="M67-ET-Wa1"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="ingredientes" destination="mvm-AG-b0E" id="XJi-fT-Zi8"/>
+                        <outlet property="masa" destination="b6S-pO-h3h" id="RX0-nb-aBV"/>
+                        <outlet property="queso" destination="CXj-2T-Siy" id="yNz-9d-gCc"/>
+                        <outlet property="tamano" destination="UBP-n1-wHa" id="EOg-ye-DLg"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="774" y="330"/>
+        </scene>
+    </scenes>
+</document>
