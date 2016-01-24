@@ -4,30 +4,25 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Calcimc WatchKit App.xcscheme</key>
+		<key>CalcIMC WatchKit App.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
-		<key>Calcimc.xcscheme</key>
+		<key>CalcIMC.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>Notification - Calcimc WatchKit App.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>8A32F6711C4538A600F6B335</key>
+		<key>8A32F6B81C4538D900F6B335</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8A32F6831C4538A600F6B335</key>
+		<key>8A32F6CA1C4538D900F6B335</key>
 		<dict>
 			<key>primary</key>
 			<true/>

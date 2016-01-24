@@ -11,7 +11,11 @@ import Foundation
 
 
 class InterfaceController: WKInterfaceController {
-
+    var pesoActual:Float = 1
+    var estaturaActual:Float = 1
+    
+    @IBOutlet var valorPeso: WKInterfaceLabel!
+    @IBOutlet var valorEstatura: WKInterfaceLabel!
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
@@ -27,5 +31,26 @@ class InterfaceController: WKInterfaceController {
         // This method is called when watch view controller is no longer visible
         super.didDeactivate()
     }
-
+    
+    @IBAction func accionCalcular() {
+        let resultado = calcularIMC(pesoActual, estatura: estaturaActual)
+        let valorContexto = Valor(d: "Peso Normal", v: resultado)
+        pushControllerWithName("IdentificadorValor", context: valorContexto)
+        print(resultado)
+    }
+    func calcularIMC(peso:Float, estatura:Float) -> Float {
+        let IMC = peso / (estatura * estatura)
+        return IMC
+    }
+    
+    @IBAction func cambiarPeso(value: Float) {
+    pesoActual = value
+    valorPeso.setText(String(pesoActual))
+    }
+    @IBAction func cambiarEstatura(value: Float) {
+        estaturaActual = value/100 //para obtiene un valor de metros y centimetros
+        valorEstatura.setText(String(estaturaActual))
+    }
+    
+    
 }

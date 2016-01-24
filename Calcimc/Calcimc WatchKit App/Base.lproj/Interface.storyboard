@@ -1,39 +1,65 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6724" systemVersion="14A389" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3735"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9515"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
-            </objects>
-            <point key="canvasLocation" x="220" y="345"/>
-        </scene>
-        <!--Static Notification Interface Controller-->
-        <scene sceneID="AEw-b0-oYE">
-            <objects>
-                <notificationController id="YCC-NB-fut">
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="CalcIMC_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                        <group width="1" alignment="left" id="z2H-LJ-Xac">
+                            <items>
+                                <label width="73.5" alignment="left" text="Peso" id="rcx-KA-uhw"/>
+                                <label alignment="left" text="40" id="iaE-KP-QM7"/>
+                            </items>
+                        </group>
+                        <slider width="1" alignment="left" value="40" minimum="40" maximum="220" steps="180" id="6Z5-qJ-bxv">
+                            <connections>
+                                <action selector="cambiarPeso:" destination="AgC-eL-Hgc" id="LHh-W4-Y9U"/>
+                            </connections>
+                        </slider>
+                        <group width="1" alignment="left" id="Uns-wV-0JJ">
+                            <items>
+                                <label width="76" alignment="left" text="Estatura" id="Aui-g5-1ih"/>
+                                <label alignment="left" text="1.20" id="iEQ-CJ-ysd"/>
+                            </items>
+                        </group>
+                        <slider width="1" alignment="left" value="120" minimum="120" maximum="210" steps="90" id="2PN-Ia-s4q">
+                            <connections>
+                                <action selector="cambiarEstatura:" destination="AgC-eL-Hgc" id="Unl-cI-fi4"/>
+                            </connections>
+                        </slider>
+                        <button width="1" alignment="left" title="Calcular" id="dST-Hq-if8">
+                            <connections>
+                                <action selector="accionCalcular" destination="AgC-eL-Hgc" id="jjX-V2-31C"/>
+                            </connections>
+                        </button>
                     </items>
-                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
                     <connections>
-                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
-                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                        <outlet property="valorEstatura" destination="iEQ-CJ-ysd" id="qjf-Qr-AKb"/>
+                        <outlet property="valorPeso" destination="iaE-KP-QM7" id="t2h-v7-kSK"/>
                     </connections>
-                </notificationController>
+                </controller>
             </objects>
-            <point key="canvasLocation" x="220" y="643"/>
+            <point key="canvasLocation" x="305" y="386.75"/>
         </scene>
-        <!--Notification Controller-->
-        <scene sceneID="ZPc-GJ-vnh">
+        <!--IdentificadorValor-->
+        <scene sceneID="fI0-5S-Bek">
             <objects>
-                <controller id="4sK-HA-Art" customClass="NotificationController" customModuleProvider="target"/>
+                <controller identifier="IdentificadorValor" id="ISV-a7-Ohb" customClass="VistaDetalle" customModule="CalcIMC_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="Calcular IMC Resultado" textAlignment="center" numberOfLines="0" id="EEs-f8-Fes"/>
+                        <label alignment="left" text="Resultado" id="0RC-gc-K78"/>
+                    </items>
+                    <connections>
+                        <outlet property="etiquetaResultado" destination="0RC-gc-K78" id="FgO-2m-pmv"/>
+                    </connections>
+                </controller>
             </objects>
-            <point key="canvasLocation" x="468" y="643"/>
+            <point key="canvasLocation" x="516" y="392"/>
         </scene>
     </scenes>
 </document>

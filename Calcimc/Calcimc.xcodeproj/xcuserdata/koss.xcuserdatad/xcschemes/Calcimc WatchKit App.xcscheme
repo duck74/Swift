@@ -5,6 +5,50 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8A32F6CA1C4538D900F6B335"
+               BuildableName = "CalcIMC WatchKit App.app"
+               BlueprintName = "CalcIMC WatchKit App"
+               ReferencedContainer = "container:CalcIMC.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8A32F6B81C4538D900F6B335"
+               BuildableName = "CalcIMC.app"
+               BlueprintName = "CalcIMC"
+               ReferencedContainer = "container:CalcIMC.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8A32F6D91C4538D900F6B335"
+               BuildableName = "CalcIMC WatchKit Extension.appex"
+               BlueprintName = "CalcIMC WatchKit Extension"
+               ReferencedContainer = "container:CalcIMC.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -13,6 +57,15 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8A32F6CA1C4538D900F6B335"
+            BuildableName = "CalcIMC WatchKit App.app"
+            BlueprintName = "CalcIMC WatchKit App"
+            ReferencedContainer = "container:CalcIMC.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +79,27 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/CalcIMC WatchKit App">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8A32F6CA1C4538D900F6B335"
+            BuildableName = "CalcIMC WatchKit App.app"
+            BlueprintName = "CalcIMC WatchKit App"
+            ReferencedContainer = "container:CalcIMC.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8A32F6CA1C4538D900F6B335"
+            BuildableName = "CalcIMC WatchKit App.app"
+            BlueprintName = "CalcIMC WatchKit App"
+            ReferencedContainer = "container:CalcIMC.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +109,27 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/CalcIMC WatchKit App">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8A32F6CA1C4538D900F6B335"
+            BuildableName = "CalcIMC WatchKit App.app"
+            BlueprintName = "CalcIMC WatchKit App"
+            ReferencedContainer = "container:CalcIMC.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8A32F6CA1C4538D900F6B335"
+            BuildableName = "CalcIMC WatchKit App.app"
+            BlueprintName = "CalcIMC WatchKit App"
+            ReferencedContainer = "container:CalcIMC.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

@@ -7,57 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8A32F6761C4538A600F6B335 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A32F6751C4538A600F6B335 /* AppDelegate.swift */; };
-		8A32F6781C4538A600F6B335 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A32F6771C4538A600F6B335 /* ViewController.swift */; };
-		8A32F67B1C4538A600F6B335 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A32F6791C4538A600F6B335 /* Main.storyboard */; };
-		8A32F67D1C4538A600F6B335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A32F67C1C4538A600F6B335 /* Assets.xcassets */; };
-		8A32F6801C4538A600F6B335 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A32F67E1C4538A600F6B335 /* LaunchScreen.storyboard */; };
-		8A32F6851C4538A600F6B335 /* Calcimc WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8A32F6841C4538A600F6B335 /* Calcimc WatchKit App.app */; };
-		8A32F68B1C4538A600F6B335 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A32F6891C4538A600F6B335 /* Interface.storyboard */; };
-		8A32F68D1C4538A600F6B335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A32F68C1C4538A600F6B335 /* Assets.xcassets */; };
-		8A32F6941C4538A600F6B335 /* Calcimc WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8A32F6931C4538A600F6B335 /* Calcimc WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		8A32F69B1C4538A600F6B335 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A32F69A1C4538A600F6B335 /* InterfaceController.swift */; };
-		8A32F69D1C4538A600F6B335 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A32F69C1C4538A600F6B335 /* ExtensionDelegate.swift */; };
-		8A32F69F1C4538A600F6B335 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A32F69E1C4538A600F6B335 /* NotificationController.swift */; };
-		8A32F6A11C4538A600F6B335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A32F6A01C4538A600F6B335 /* Assets.xcassets */; };
+		8A32F6BD1C4538D900F6B335 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A32F6BC1C4538D900F6B335 /* AppDelegate.swift */; };
+		8A32F6BF1C4538D900F6B335 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A32F6BE1C4538D900F6B335 /* ViewController.swift */; };
+		8A32F6C21C4538D900F6B335 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A32F6C01C4538D900F6B335 /* Main.storyboard */; };
+		8A32F6C41C4538D900F6B335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A32F6C31C4538D900F6B335 /* Assets.xcassets */; };
+		8A32F6C71C4538D900F6B335 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A32F6C51C4538D900F6B335 /* LaunchScreen.storyboard */; };
+		8A32F6CC1C4538D900F6B335 /* CalcIMC WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8A32F6CB1C4538D900F6B335 /* CalcIMC WatchKit App.app */; };
+		8A32F6D21C4538D900F6B335 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A32F6D01C4538D900F6B335 /* Interface.storyboard */; };
+		8A32F6D41C4538D900F6B335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A32F6D31C4538D900F6B335 /* Assets.xcassets */; };
+		8A32F6DB1C4538D900F6B335 /* CalcIMC WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8A32F6DA1C4538D900F6B335 /* CalcIMC WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8A32F6E01C4538D900F6B335 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A32F6DF1C4538D900F6B335 /* InterfaceController.swift */; };
+		8A32F6E21C4538D900F6B335 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A32F6E11C4538D900F6B335 /* ExtensionDelegate.swift */; };
+		8A32F6E41C4538D900F6B335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A32F6E31C4538D900F6B335 /* Assets.xcassets */; };
+		8A32F6F41C453B3000F6B335 /* Valor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A32F6F31C453B3000F6B335 /* Valor.swift */; };
+		8A32F6F61C453C0900F6B335 /* VistaDetalle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A32F6F51C453C0900F6B335 /* VistaDetalle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8A32F6861C4538A600F6B335 /* PBXContainerItemProxy */ = {
+		8A32F6CD1C4538D900F6B335 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8A32F66A1C4538A600F6B335 /* Project object */;
+			containerPortal = 8A32F6B11C4538D900F6B335 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8A32F6831C4538A600F6B335;
-			remoteInfo = "Calcimc WatchKit App";
+			remoteGlobalIDString = 8A32F6CA1C4538D900F6B335;
+			remoteInfo = "CalcIMC WatchKit App";
 		};
-		8A32F6951C4538A600F6B335 /* PBXContainerItemProxy */ = {
+		8A32F6DC1C4538D900F6B335 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8A32F66A1C4538A600F6B335 /* Project object */;
+			containerPortal = 8A32F6B11C4538D900F6B335 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8A32F6921C4538A600F6B335;
-			remoteInfo = "Calcimc WatchKit Extension";
+			remoteGlobalIDString = 8A32F6D91C4538D900F6B335;
+			remoteInfo = "CalcIMC WatchKit Extension";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		8A32F6A81C4538A600F6B335 /* Embed App Extensions */ = {
+		8A32F6EB1C4538D900F6B335 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				8A32F6941C4538A600F6B335 /* Calcimc WatchKit Extension.appex in Embed App Extensions */,
+				8A32F6DB1C4538D900F6B335 /* CalcIMC WatchKit Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8A32F6AC1C4538A600F6B335 /* Embed Watch Content */ = {
+		8A32F6EF1C4538D900F6B335 /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				8A32F6851C4538A600F6B335 /* Calcimc WatchKit App.app in Embed Watch Content */,
+				8A32F6CC1C4538D900F6B335 /* CalcIMC WatchKit App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,35 +66,35 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		8A32F6721C4538A600F6B335 /* Calcimc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calcimc.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A32F6751C4538A600F6B335 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8A32F6771C4538A600F6B335 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8A32F67A1C4538A600F6B335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8A32F67C1C4538A600F6B335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8A32F67F1C4538A600F6B335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8A32F6811C4538A600F6B335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8A32F6841C4538A600F6B335 /* Calcimc WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calcimc WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A32F68A1C4538A600F6B335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		8A32F68C1C4538A600F6B335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8A32F68E1C4538A600F6B335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8A32F6931C4538A600F6B335 /* Calcimc WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Calcimc WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A32F6991C4538A600F6B335 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		8A32F69A1C4538A600F6B335 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
-		8A32F69C1C4538A600F6B335 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
-		8A32F69E1C4538A600F6B335 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
-		8A32F6A01C4538A600F6B335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8A32F6A21C4538A600F6B335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A32F6B91C4538D900F6B335 /* CalcIMC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalcIMC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A32F6BC1C4538D900F6B335 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A32F6BE1C4538D900F6B335 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8A32F6C11C4538D900F6B335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A32F6C31C4538D900F6B335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A32F6C61C4538D900F6B335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A32F6C81C4538D900F6B335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A32F6CB1C4538D900F6B335 /* CalcIMC WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CalcIMC WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A32F6D11C4538D900F6B335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		8A32F6D31C4538D900F6B335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A32F6D51C4538D900F6B335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A32F6DA1C4538D900F6B335 /* CalcIMC WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CalcIMC WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A32F6DF1C4538D900F6B335 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		8A32F6E11C4538D900F6B335 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		8A32F6E31C4538D900F6B335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A32F6E51C4538D900F6B335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A32F6F31C453B3000F6B335 /* Valor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Valor.swift; sourceTree = "<group>"; };
+		8A32F6F51C453C0900F6B335 /* VistaDetalle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaDetalle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8A32F66F1C4538A600F6B335 /* Frameworks */ = {
+		8A32F6B61C4538D900F6B335 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8A32F6901C4538A600F6B335 /* Frameworks */ = {
+		8A32F6D71C4538D900F6B335 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -103,148 +104,140 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8A32F6691C4538A600F6B335 = {
+		8A32F6B01C4538D900F6B335 = {
 			isa = PBXGroup;
 			children = (
-				8A32F6741C4538A600F6B335 /* Calcimc */,
-				8A32F6881C4538A600F6B335 /* Calcimc WatchKit App */,
-				8A32F6971C4538A600F6B335 /* Calcimc WatchKit Extension */,
-				8A32F6731C4538A600F6B335 /* Products */,
+				8A32F6BB1C4538D900F6B335 /* CalcIMC */,
+				8A32F6CF1C4538D900F6B335 /* CalcIMC WatchKit App */,
+				8A32F6DE1C4538D900F6B335 /* CalcIMC WatchKit Extension */,
+				8A32F6BA1C4538D900F6B335 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8A32F6731C4538A600F6B335 /* Products */ = {
+		8A32F6BA1C4538D900F6B335 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8A32F6721C4538A600F6B335 /* Calcimc.app */,
-				8A32F6841C4538A600F6B335 /* Calcimc WatchKit App.app */,
-				8A32F6931C4538A600F6B335 /* Calcimc WatchKit Extension.appex */,
+				8A32F6B91C4538D900F6B335 /* CalcIMC.app */,
+				8A32F6CB1C4538D900F6B335 /* CalcIMC WatchKit App.app */,
+				8A32F6DA1C4538D900F6B335 /* CalcIMC WatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8A32F6741C4538A600F6B335 /* Calcimc */ = {
+		8A32F6BB1C4538D900F6B335 /* CalcIMC */ = {
 			isa = PBXGroup;
 			children = (
-				8A32F6751C4538A600F6B335 /* AppDelegate.swift */,
-				8A32F6771C4538A600F6B335 /* ViewController.swift */,
-				8A32F6791C4538A600F6B335 /* Main.storyboard */,
-				8A32F67C1C4538A600F6B335 /* Assets.xcassets */,
-				8A32F67E1C4538A600F6B335 /* LaunchScreen.storyboard */,
-				8A32F6811C4538A600F6B335 /* Info.plist */,
+				8A32F6BC1C4538D900F6B335 /* AppDelegate.swift */,
+				8A32F6BE1C4538D900F6B335 /* ViewController.swift */,
+				8A32F6C01C4538D900F6B335 /* Main.storyboard */,
+				8A32F6C31C4538D900F6B335 /* Assets.xcassets */,
+				8A32F6C51C4538D900F6B335 /* LaunchScreen.storyboard */,
+				8A32F6C81C4538D900F6B335 /* Info.plist */,
 			);
-			path = Calcimc;
+			path = CalcIMC;
 			sourceTree = "<group>";
 		};
-		8A32F6881C4538A600F6B335 /* Calcimc WatchKit App */ = {
+		8A32F6CF1C4538D900F6B335 /* CalcIMC WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
-				8A32F6891C4538A600F6B335 /* Interface.storyboard */,
-				8A32F68C1C4538A600F6B335 /* Assets.xcassets */,
-				8A32F68E1C4538A600F6B335 /* Info.plist */,
+				8A32F6D01C4538D900F6B335 /* Interface.storyboard */,
+				8A32F6D31C4538D900F6B335 /* Assets.xcassets */,
+				8A32F6D51C4538D900F6B335 /* Info.plist */,
 			);
-			path = "Calcimc WatchKit App";
+			path = "CalcIMC WatchKit App";
 			sourceTree = "<group>";
 		};
-		8A32F6971C4538A600F6B335 /* Calcimc WatchKit Extension */ = {
+		8A32F6DE1C4538D900F6B335 /* CalcIMC WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				8A32F69A1C4538A600F6B335 /* InterfaceController.swift */,
-				8A32F69C1C4538A600F6B335 /* ExtensionDelegate.swift */,
-				8A32F69E1C4538A600F6B335 /* NotificationController.swift */,
-				8A32F6A01C4538A600F6B335 /* Assets.xcassets */,
-				8A32F6A21C4538A600F6B335 /* Info.plist */,
-				8A32F6981C4538A600F6B335 /* Supporting Files */,
+				8A32F6DF1C4538D900F6B335 /* InterfaceController.swift */,
+				8A32F6E11C4538D900F6B335 /* ExtensionDelegate.swift */,
+				8A32F6E31C4538D900F6B335 /* Assets.xcassets */,
+				8A32F6E51C4538D900F6B335 /* Info.plist */,
+				8A32F6F31C453B3000F6B335 /* Valor.swift */,
+				8A32F6F51C453C0900F6B335 /* VistaDetalle.swift */,
 			);
-			path = "Calcimc WatchKit Extension";
-			sourceTree = "<group>";
-		};
-		8A32F6981C4538A600F6B335 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				8A32F6991C4538A600F6B335 /* PushNotificationPayload.apns */,
-			);
-			name = "Supporting Files";
+			path = "CalcIMC WatchKit Extension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8A32F6711C4538A600F6B335 /* Calcimc */ = {
+		8A32F6B81C4538D900F6B335 /* CalcIMC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8A32F6AD1C4538A600F6B335 /* Build configuration list for PBXNativeTarget "Calcimc" */;
+			buildConfigurationList = 8A32F6F01C4538D900F6B335 /* Build configuration list for PBXNativeTarget "CalcIMC" */;
 			buildPhases = (
-				8A32F66E1C4538A600F6B335 /* Sources */,
-				8A32F66F1C4538A600F6B335 /* Frameworks */,
-				8A32F6701C4538A600F6B335 /* Resources */,
-				8A32F6AC1C4538A600F6B335 /* Embed Watch Content */,
+				8A32F6B51C4538D900F6B335 /* Sources */,
+				8A32F6B61C4538D900F6B335 /* Frameworks */,
+				8A32F6B71C4538D900F6B335 /* Resources */,
+				8A32F6EF1C4538D900F6B335 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8A32F6871C4538A600F6B335 /* PBXTargetDependency */,
+				8A32F6CE1C4538D900F6B335 /* PBXTargetDependency */,
 			);
-			name = Calcimc;
-			productName = Calcimc;
-			productReference = 8A32F6721C4538A600F6B335 /* Calcimc.app */;
+			name = CalcIMC;
+			productName = CalcIMC;
+			productReference = 8A32F6B91C4538D900F6B335 /* CalcIMC.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8A32F6831C4538A600F6B335 /* Calcimc WatchKit App */ = {
+		8A32F6CA1C4538D900F6B335 /* CalcIMC WatchKit App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8A32F6A91C4538A600F6B335 /* Build configuration list for PBXNativeTarget "Calcimc WatchKit App" */;
+			buildConfigurationList = 8A32F6EC1C4538D900F6B335 /* Build configuration list for PBXNativeTarget "CalcIMC WatchKit App" */;
 			buildPhases = (
-				8A32F6821C4538A600F6B335 /* Resources */,
-				8A32F6A81C4538A600F6B335 /* Embed App Extensions */,
+				8A32F6C91C4538D900F6B335 /* Resources */,
+				8A32F6EB1C4538D900F6B335 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8A32F6961C4538A600F6B335 /* PBXTargetDependency */,
+				8A32F6DD1C4538D900F6B335 /* PBXTargetDependency */,
 			);
-			name = "Calcimc WatchKit App";
-			productName = "Calcimc WatchKit App";
-			productReference = 8A32F6841C4538A600F6B335 /* Calcimc WatchKit App.app */;
+			name = "CalcIMC WatchKit App";
+			productName = "CalcIMC WatchKit App";
+			productReference = 8A32F6CB1C4538D900F6B335 /* CalcIMC WatchKit App.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
-		8A32F6921C4538A600F6B335 /* Calcimc WatchKit Extension */ = {
+		8A32F6D91C4538D900F6B335 /* CalcIMC WatchKit Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8A32F6A51C4538A600F6B335 /* Build configuration list for PBXNativeTarget "Calcimc WatchKit Extension" */;
+			buildConfigurationList = 8A32F6E81C4538D900F6B335 /* Build configuration list for PBXNativeTarget "CalcIMC WatchKit Extension" */;
 			buildPhases = (
-				8A32F68F1C4538A600F6B335 /* Sources */,
-				8A32F6901C4538A600F6B335 /* Frameworks */,
-				8A32F6911C4538A600F6B335 /* Resources */,
+				8A32F6D61C4538D900F6B335 /* Sources */,
+				8A32F6D71C4538D900F6B335 /* Frameworks */,
+				8A32F6D81C4538D900F6B335 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Calcimc WatchKit Extension";
-			productName = "Calcimc WatchKit Extension";
-			productReference = 8A32F6931C4538A600F6B335 /* Calcimc WatchKit Extension.appex */;
+			name = "CalcIMC WatchKit Extension";
+			productName = "CalcIMC WatchKit Extension";
+			productReference = 8A32F6DA1C4538D900F6B335 /* CalcIMC WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8A32F66A1C4538A600F6B335 /* Project object */ = {
+		8A32F6B11C4538D900F6B335 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = mine;
 				TargetAttributes = {
-					8A32F6711C4538A600F6B335 = {
+					8A32F6B81C4538D900F6B335 = {
 						CreatedOnToolsVersion = 7.2;
 					};
-					8A32F6831C4538A600F6B335 = {
+					8A32F6CA1C4538D900F6B335 = {
 						CreatedOnToolsVersion = 7.2;
 					};
-					8A32F6921C4538A600F6B335 = {
+					8A32F6D91C4538D900F6B335 = {
 						CreatedOnToolsVersion = 7.2;
 					};
 				};
 			};
-			buildConfigurationList = 8A32F66D1C4538A600F6B335 /* Build configuration list for PBXProject "Calcimc" */;
+			buildConfigurationList = 8A32F6B41C4538D900F6B335 /* Build configuration list for PBXProject "CalcIMC" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -252,104 +245,105 @@
 				en,
 				Base,
 			);
-			mainGroup = 8A32F6691C4538A600F6B335;
-			productRefGroup = 8A32F6731C4538A600F6B335 /* Products */;
+			mainGroup = 8A32F6B01C4538D900F6B335;
+			productRefGroup = 8A32F6BA1C4538D900F6B335 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8A32F6711C4538A600F6B335 /* Calcimc */,
-				8A32F6831C4538A600F6B335 /* Calcimc WatchKit App */,
-				8A32F6921C4538A600F6B335 /* Calcimc WatchKit Extension */,
+				8A32F6B81C4538D900F6B335 /* CalcIMC */,
+				8A32F6CA1C4538D900F6B335 /* CalcIMC WatchKit App */,
+				8A32F6D91C4538D900F6B335 /* CalcIMC WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8A32F6701C4538A600F6B335 /* Resources */ = {
+		8A32F6B71C4538D900F6B335 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A32F6801C4538A600F6B335 /* LaunchScreen.storyboard in Resources */,
-				8A32F67D1C4538A600F6B335 /* Assets.xcassets in Resources */,
-				8A32F67B1C4538A600F6B335 /* Main.storyboard in Resources */,
+				8A32F6C71C4538D900F6B335 /* LaunchScreen.storyboard in Resources */,
+				8A32F6C41C4538D900F6B335 /* Assets.xcassets in Resources */,
+				8A32F6C21C4538D900F6B335 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8A32F6821C4538A600F6B335 /* Resources */ = {
+		8A32F6C91C4538D900F6B335 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A32F68D1C4538A600F6B335 /* Assets.xcassets in Resources */,
-				8A32F68B1C4538A600F6B335 /* Interface.storyboard in Resources */,
+				8A32F6D41C4538D900F6B335 /* Assets.xcassets in Resources */,
+				8A32F6D21C4538D900F6B335 /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8A32F6911C4538A600F6B335 /* Resources */ = {
+		8A32F6D81C4538D900F6B335 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A32F6A11C4538A600F6B335 /* Assets.xcassets in Resources */,
+				8A32F6E41C4538D900F6B335 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8A32F66E1C4538A600F6B335 /* Sources */ = {
+		8A32F6B51C4538D900F6B335 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A32F6781C4538A600F6B335 /* ViewController.swift in Sources */,
-				8A32F6761C4538A600F6B335 /* AppDelegate.swift in Sources */,
+				8A32F6BF1C4538D900F6B335 /* ViewController.swift in Sources */,
+				8A32F6BD1C4538D900F6B335 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8A32F68F1C4538A600F6B335 /* Sources */ = {
+		8A32F6D61C4538D900F6B335 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A32F69F1C4538A600F6B335 /* NotificationController.swift in Sources */,
-				8A32F69D1C4538A600F6B335 /* ExtensionDelegate.swift in Sources */,
-				8A32F69B1C4538A600F6B335 /* InterfaceController.swift in Sources */,
+				8A32F6F41C453B3000F6B335 /* Valor.swift in Sources */,
+				8A32F6E21C4538D900F6B335 /* ExtensionDelegate.swift in Sources */,
+				8A32F6E01C4538D900F6B335 /* InterfaceController.swift in Sources */,
+				8A32F6F61C453C0900F6B335 /* VistaDetalle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8A32F6871C4538A600F6B335 /* PBXTargetDependency */ = {
+		8A32F6CE1C4538D900F6B335 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8A32F6831C4538A600F6B335 /* Calcimc WatchKit App */;
-			targetProxy = 8A32F6861C4538A600F6B335 /* PBXContainerItemProxy */;
+			target = 8A32F6CA1C4538D900F6B335 /* CalcIMC WatchKit App */;
+			targetProxy = 8A32F6CD1C4538D900F6B335 /* PBXContainerItemProxy */;
 		};
-		8A32F6961C4538A600F6B335 /* PBXTargetDependency */ = {
+		8A32F6DD1C4538D900F6B335 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8A32F6921C4538A600F6B335 /* Calcimc WatchKit Extension */;
-			targetProxy = 8A32F6951C4538A600F6B335 /* PBXContainerItemProxy */;
+			target = 8A32F6D91C4538D900F6B335 /* CalcIMC WatchKit Extension */;
+			targetProxy = 8A32F6DC1C4538D900F6B335 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8A32F6791C4538A600F6B335 /* Main.storyboard */ = {
+		8A32F6C01C4538D900F6B335 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8A32F67A1C4538A600F6B335 /* Base */,
+				8A32F6C11C4538D900F6B335 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		8A32F67E1C4538A600F6B335 /* LaunchScreen.storyboard */ = {
+		8A32F6C51C4538D900F6B335 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8A32F67F1C4538A600F6B335 /* Base */,
+				8A32F6C61C4538D900F6B335 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		8A32F6891C4538A600F6B335 /* Interface.storyboard */ = {
+		8A32F6D01C4538D900F6B335 /* Interface.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8A32F68A1C4538A600F6B335 /* Base */,
+				8A32F6D11C4538D900F6B335 /* Base */,
 			);
 			name = Interface.storyboard;
 			sourceTree = "<group>";
@@ -357,7 +351,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		8A32F6A31C4538A600F6B335 /* Debug */ = {
+		8A32F6E61C4538D900F6B335 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -401,7 +395,7 @@
 			};
 			name = Debug;
 		};
-		8A32F6A41C4538A600F6B335 /* Release */ = {
+		8A32F6E71C4538D900F6B335 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -438,12 +432,12 @@
 			};
 			name = Release;
 		};
-		8A32F6A61C4538A600F6B335 /* Debug */ = {
+		8A32F6E91C4538D900F6B335 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = "Calcimc WatchKit Extension/Info.plist";
+				INFOPLIST_FILE = "CalcIMC WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mine.org.Calcimc.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = mine.org.CalcIMC.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -452,12 +446,12 @@
 			};
 			name = Debug;
 		};
-		8A32F6A71C4538A600F6B335 /* Release */ = {
+		8A32F6EA1C4538D900F6B335 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = "Calcimc WatchKit Extension/Info.plist";
+				INFOPLIST_FILE = "CalcIMC WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mine.org.Calcimc.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = mine.org.CalcIMC.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -466,14 +460,14 @@
 			};
 			name = Release;
 		};
-		8A32F6AA1C4538A600F6B335 /* Debug */ = {
+		8A32F6ED1C4538D900F6B335 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				IBSC_MODULE = Calcimc_WatchKit_Extension;
-				INFOPLIST_FILE = "Calcimc WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = mine.org.Calcimc.watchkitapp;
+				IBSC_MODULE = CalcIMC_WatchKit_Extension;
+				INFOPLIST_FILE = "CalcIMC WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = mine.org.CalcIMC.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -482,14 +476,14 @@
 			};
 			name = Debug;
 		};
-		8A32F6AB1C4538A600F6B335 /* Release */ = {
+		8A32F6EE1C4538D900F6B335 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				IBSC_MODULE = Calcimc_WatchKit_Extension;
-				INFOPLIST_FILE = "Calcimc WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = mine.org.Calcimc.watchkitapp;
+				IBSC_MODULE = CalcIMC_WatchKit_Extension;
+				INFOPLIST_FILE = "CalcIMC WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = mine.org.CalcIMC.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -498,24 +492,24 @@
 			};
 			name = Release;
 		};
-		8A32F6AE1C4538A600F6B335 /* Debug */ = {
+		8A32F6F11C4538D900F6B335 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Calcimc/Info.plist;
+				INFOPLIST_FILE = CalcIMC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mine.org.Calcimc;
+				PRODUCT_BUNDLE_IDENTIFIER = mine.org.CalcIMC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		8A32F6AF1C4538A600F6B335 /* Release */ = {
+		8A32F6F21C4538D900F6B335 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Calcimc/Info.plist;
+				INFOPLIST_FILE = CalcIMC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mine.org.Calcimc;
+				PRODUCT_BUNDLE_IDENTIFIER = mine.org.CalcIMC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -523,40 +517,40 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8A32F66D1C4538A600F6B335 /* Build configuration list for PBXProject "Calcimc" */ = {
+		8A32F6B41C4538D900F6B335 /* Build configuration list for PBXProject "CalcIMC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8A32F6A31C4538A600F6B335 /* Debug */,
-				8A32F6A41C4538A600F6B335 /* Release */,
+				8A32F6E61C4538D900F6B335 /* Debug */,
+				8A32F6E71C4538D900F6B335 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8A32F6A51C4538A600F6B335 /* Build configuration list for PBXNativeTarget "Calcimc WatchKit Extension" */ = {
+		8A32F6E81C4538D900F6B335 /* Build configuration list for PBXNativeTarget "CalcIMC WatchKit Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8A32F6A61C4538A600F6B335 /* Debug */,
-				8A32F6A71C4538A600F6B335 /* Release */,
+				8A32F6E91C4538D900F6B335 /* Debug */,
+				8A32F6EA1C4538D900F6B335 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		8A32F6A91C4538A600F6B335 /* Build configuration list for PBXNativeTarget "Calcimc WatchKit App" */ = {
+		8A32F6EC1C4538D900F6B335 /* Build configuration list for PBXNativeTarget "CalcIMC WatchKit App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8A32F6AA1C4538A600F6B335 /* Debug */,
-				8A32F6AB1C4538A600F6B335 /* Release */,
+				8A32F6ED1C4538D900F6B335 /* Debug */,
+				8A32F6EE1C4538D900F6B335 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		8A32F6AD1C4538A600F6B335 /* Build configuration list for PBXNativeTarget "Calcimc" */ = {
+		8A32F6F01C4538D900F6B335 /* Build configuration list for PBXNativeTarget "CalcIMC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8A32F6AE1C4538A600F6B335 /* Debug */,
-				8A32F6AF1C4538A600F6B335 /* Release */,
+				8A32F6F11C4538D900F6B335 /* Debug */,
+				8A32F6F21C4538D900F6B335 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8A32F66A1C4538A600F6B335 /* Project object */;
+	rootObject = 8A32F6B11C4538D900F6B335 /* Project object */;
 }

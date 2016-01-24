@@ -13,12 +13,12 @@
 		8A32F6381C45292200F6B335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A32F6371C45292200F6B335 /* Assets.xcassets */; };
 		8A32F63B1C45292200F6B335 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A32F6391C45292200F6B335 /* LaunchScreen.storyboard */; };
 		8A32F6401C45292200F6B335 /* CalcMiIMC WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8A32F63F1C45292200F6B335 /* CalcMiIMC WatchKit App.app */; };
-		8A32F6461C45292200F6B335 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A32F6441C45292200F6B335 /* Interface.storyboard */; };
 		8A32F6481C45292200F6B335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A32F6471C45292200F6B335 /* Assets.xcassets */; };
 		8A32F64F1C45292200F6B335 /* CalcMiIMC WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8A32F64E1C45292200F6B335 /* CalcMiIMC WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		8A32F6541C45292200F6B335 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A32F6531C45292200F6B335 /* InterfaceController.swift */; };
 		8A32F6561C45292200F6B335 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A32F6551C45292200F6B335 /* ExtensionDelegate.swift */; };
 		8A32F6581C45292200F6B335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A32F6571C45292200F6B335 /* Assets.xcassets */; };
+		8A32F6681C4536DE00F6B335 /* Valor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A32F6671C4536DE00F6B335 /* Valor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,7 +72,6 @@
 		8A32F63A1C45292200F6B335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A32F63C1C45292200F6B335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A32F63F1C45292200F6B335 /* CalcMiIMC WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CalcMiIMC WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A32F6451C45292200F6B335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		8A32F6471C45292200F6B335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A32F6491C45292200F6B335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A32F64E1C45292200F6B335 /* CalcMiIMC WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CalcMiIMC WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,6 +79,7 @@
 		8A32F6551C45292200F6B335 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		8A32F6571C45292200F6B335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A32F6591C45292200F6B335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A32F6671C4536DE00F6B335 /* Valor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Valor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,7 +136,6 @@
 		8A32F6431C45292200F6B335 /* CalcMiIMC WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
-				8A32F6441C45292200F6B335 /* Interface.storyboard */,
 				8A32F6471C45292200F6B335 /* Assets.xcassets */,
 				8A32F6491C45292200F6B335 /* Info.plist */,
 			);
@@ -147,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				8A32F6531C45292200F6B335 /* InterfaceController.swift */,
+				8A32F6671C4536DE00F6B335 /* Valor.swift */,
 				8A32F6551C45292200F6B335 /* ExtensionDelegate.swift */,
 				8A32F6571C45292200F6B335 /* Assets.xcassets */,
 				8A32F6591C45292200F6B335 /* Info.plist */,
@@ -267,7 +267,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A32F6481C45292200F6B335 /* Assets.xcassets in Resources */,
-				8A32F6461C45292200F6B335 /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A32F6681C4536DE00F6B335 /* Valor.swift in Sources */,
 				8A32F6561C45292200F6B335 /* ExtensionDelegate.swift in Sources */,
 				8A32F6541C45292200F6B335 /* InterfaceController.swift in Sources */,
 			);
@@ -330,14 +330,6 @@
 				8A32F63A1C45292200F6B335 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		8A32F6441C45292200F6B335 /* Interface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8A32F6451C45292200F6B335 /* Base */,
-			);
-			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

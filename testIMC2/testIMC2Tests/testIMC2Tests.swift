@@ -21,6 +21,20 @@ class testIMC2Tests: XCTestCase {
         super.tearDown()
     }
     
+    func testPesoBajo(){
+        let mc:MyIMC = MyIMC()
+        mc.peso = 50
+        mc.estatura = 1.7
+        XCTAssertEqual(mc.IMC(), 17.30, "Correcto Bajo de peso")
+    }
+    
+    func testPesoNormal(){
+        let mc:MyIMC = MyIMC()
+        mc.peso = 60
+        mc.estatura = 1.7
+        XCTAssertEqual(mc.IMC(), 20.76, "correcto Peso normal")
+    }
+    
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.

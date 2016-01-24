@@ -74,7 +74,7 @@ class VistaIngredientes: UIViewController , UITableViewDelegate, UITableViewData
         
         
         //print(selectedRows)
-        if listcount < 5 {
+        if listcount < 6 {
         //sendIngredientes.append(ingredientesPickerDataSource[indexPath.row])
         //print(sendIngredientes)
         }
@@ -82,7 +82,13 @@ class VistaIngredientes: UIViewController , UITableViewDelegate, UITableViewData
             let alert = UIAlertController(title: "Alert", message: "Solamente puedes seleccionar 5 ingredientes", preferredStyle: UIAlertControllerStyle.Alert)
             alert.addAction(UIAlertAction(title: "Dejar", style: UIAlertActionStyle.Default, handler: nil))
             self.presentViewController(alert, animated: true, completion: nil)
-            //tableView.deselectRowAtIndexPath(indexPath, animated: true)
+            
+            tableView.deselectRowAtIndexPath(indexPath, animated: true)
+            if let index = selectedIndexPaths.indexOf(indexPath) {
+                selectedIndexPaths.removeAtIndex(index)
+                //print(selectedIndexPaths)
+                rowIndex = selectedIndexPaths.map{$0.row}
+            }
         }
     }
    

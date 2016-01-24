@@ -1,15 +1,63 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6221" systemVersion="13E28" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6213"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3733"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9515"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="CalcMiIMC_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" alignment="left" id="Cyx-Ea-SNc">
+                            <items>
+                                <label width="70.5" alignment="left" text="Peso" id="uue-DV-zrF"/>
+                                <label width="70.5" alignment="left" text="30" id="ppH-NE-rj7"/>
+                            </items>
+                        </group>
+                        <slider width="1" alignment="left" value="30" minimum="30" maximum="200" steps="170" id="k6c-tS-0TG">
+                            <connections>
+                                <action selector="cambiarPeso:" destination="AgC-eL-Hgc" id="y1T-DT-3JX"/>
+                            </connections>
+                        </slider>
+                        <group width="1" alignment="left" id="ZLi-AS-gph">
+                            <items>
+                                <label width="71.5" height="19.5" alignment="left" text="Estatura" id="Yps-SN-cET"/>
+                                <label alignment="left" text="1.20" id="ChB-Id-DBX"/>
+                            </items>
+                        </group>
+                        <slider width="1" alignment="left" value="120" minimum="120" maximum="210" steps="90" id="cWj-X5-Hbl">
+                            <connections>
+                                <action selector="cambiarEstatura:" destination="AgC-eL-Hgc" id="NZb-Np-JhP"/>
+                            </connections>
+                        </slider>
+                        <button width="1" alignment="left" title="Calcular" id="S1E-LR-cDg">
+                            <connections>
+                                <action selector="accionCalcular" destination="AgC-eL-Hgc" id="a2w-OZ-Ydl"/>
+                                <segue destination="ydH-DJ-Jvb" kind="push" identifier="pushIMC" id="XPv-pi-dfX"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="valorEstatura" destination="ChB-Id-DBX" id="jTg-k0-qx6"/>
+                        <outlet property="valorPeso" destination="ppH-NE-rj7" id="1FU-iT-tkv"/>
+                    </connections>
+                </controller>
             </objects>
+            <point key="canvasLocation" x="305" y="386.25"/>
+        </scene>
+        <!--IdentificadorValor-->
+        <scene sceneID="2m1-w0-3uc">
+            <objects>
+                <controller identifier="IdentificadorValor" id="ydH-DJ-Jvb" customClass="InterfaceController" customModule="CalcMiIMC_WatchKit_Extension">
+                    <items>
+                        <label width="136" height="59.5" alignment="left" text="Resultado Masa Corporal" textAlignment="center" numberOfLines="2" id="qL3-H1-Rlb"/>
+                        <label alignment="left" text="IMC" id="ZXE-ow-NgV"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="564" y="388"/>
         </scene>
     </scenes>
 </document>
